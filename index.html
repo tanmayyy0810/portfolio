@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay Rastogi | Cosmic Command</title>
+    <!-- Sleek, modern sci-fi fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Interactive Canvas Background -->
+    <canvas id="space-canvas"></canvas>
+
+    <!-- Interstellar Theme Track -->
+    <audio id="interstellar-track" loop>
+        <source src="interstellar.mp3" type="audio/mpeg">
+    </audio>
+
+    <nav class="glass-nav">
+        <div class="logo">TR</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Terminal</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="index.html#projects">Missions</a></li>
+            <!-- <li><button id="audio-toggle" class="glow-btn-small">Engage Audio 🎵</button></li> -->
+        </ul>
+    </nav>
+
+    <main id="home" class="hero-section">
+        <div class="hero-content glass-panel">
+            <h1 class="stellar-title">Tanmay<br>Rastogi</h1>
+            <p class="subtitle">Software Developer & Data Science Enthusiast</p>
+            <p class="description">
+                Computer Science undergraduate at Vellore Institute of Technology and BS Data Science student at IIT Madras. Actively involved in technical projects with a strong focus on machine learning, full-stack web technologies, and problem-solving.
+            </p>
+            <div class="cta-group">
+                <a href="#projects" class="glow-btn">Explore Projects</a>
+                <button id="hyperspace-btn" class="glow-btn secondary">Initiate Hyperspace</button>
+            </div>
+        </div>
+
+        <div class="hero-graphic">
+            <div class="stellar-core">
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="core-pulse"></div>
+                <div class="data-readout">System Online. Awaiting commands...</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Current Missions</h2>
+        <div class="project-grid">
+            <div class="glass-card">
+                <h3>AI-Powered Health Smartwatch</h3>
+                <p>Designed an IoT prototype using ESP8266 and sensors (MPU6050, MAX30100) with a Node.js dashboard to monitor health vitals and step tracking.</p>
+            </div>
+            <div class="glass-card">
+                <h3>Threat Guard</h3>
+                <p>Developed a machine learning tool in Python to classify spam emails and malicious URLs, featuring a custom web interface.</p>
+                <a href="https://threat-guard-73fs.onrender.com/" target="_blank" class="glow-btn-small link-btn">Launch Application ↗</a>
+            </div>
+            <div class="glass-card">
+                <h3>Campus Delivery Platform</h3>
+                <p>Built a peer-to-peer web platform to connect students, featuring interactive UI for posting requests and coordinating campus deliveries.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
